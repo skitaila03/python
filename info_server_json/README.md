@@ -1,6 +1,6 @@
-SERVER python3.6 server.py *Start with triggers
-
-python3.6 server.py --silent * Start in silent mode * Do not trigger email when percent > 80 (CPU, RAM, SWAP) * Do not trigger when md5 sum is diffrent (/etc/passwd, /var/log/source, /var/log/wtmp)
+SERVER JSON: Requirments Python 3.x
+Python script for getting cpu/ram/swap/hdd/logs in json format
+python server.py --silent * Start in silent mode * Do not trigger email when percent > 80 (CPU, RAM, SWAP) * Do not trigger when md5 sum is diffrent (/etc/passwd, /var/log/source, /var/log/wtmp)
 
 CHK: Requirments: psutil (link = https://pypi.org/project/psutil/) os sys subprocess socket hashlib
 
